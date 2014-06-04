@@ -77,7 +77,7 @@ func (f *file) lint() []Problem {
 	f.lintPackageComment()
 	f.lintImports()
 	f.lintBlankImports()
-	f.lintExported()
+	//f.lintExported()
 	//f.lintNames()
 	f.lintVarDecls()
 	f.lintElses()
